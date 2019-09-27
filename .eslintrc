@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@conten2/eslint-config"]
+}

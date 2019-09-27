@@ -1,0 +1,9 @@
+{
+  "package.json": [
+    "prettier-package-json --write",
+    "prettier --write",
+    "git add"
+  ],
+  "*.js": ["eslint --fix", "prettier --write", "git add"],
+  "*.yml": ["prettier --write", "git add"]
+}

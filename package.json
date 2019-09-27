@@ -1,0 +1,30 @@
+{
+  "name": "spotify-box",
+  "description": "pinned gist box for Spotify",
+  "author": "SnO2WMaN <sno2wman.official@gmail.com>",
+  "homepage": "https://github.com/SnO2WMaN/spotify-box#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnO2WMaN/spotify-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SnO2WMaN/spotify-box/issues"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@conten2/eslint-config": "^1.0.0-5",
+    "@conten2/prettier-config": "^1.0.0",
+    "@sno2wman/prettier-package-json": "^2.0.2",
+    "eslint": "^6.4.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.4.0",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "pinned-box",
+    "spotify"
+  ],
+  "scripts": {
+    "manual": "node index.js"
+  }
+}
