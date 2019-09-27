@@ -1,0 +1,18 @@
+name: Update gist with WakaTime stats
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Update gist
+        uses: SnO2WMaN/music-box@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 57897a59c679fc8d5817a566f4b3b326
+          LAST_FM_API_KEY: ${{ secrets.LAST_FM_API_KEY }}
+          LAST_FM_USER: ${{ secrets.LAST_FM_USER }}
