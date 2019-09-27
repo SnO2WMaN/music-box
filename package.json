@@ -1,16 +1,21 @@
 {
-  "name": "spotify-box",
-  "description": "pinned gist box for Spotify",
+  "name": "music-box",
+  "description": "pinned gist box for Last.fm",
   "author": "SnO2WMaN <sno2wman.official@gmail.com>",
-  "homepage": "https://github.com/SnO2WMaN/spotify-box#readme",
+  "homepage": "https://github.com/SnO2WMaN/music-box#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SnO2WMaN/spotify-box.git"
+    "url": "git+https://github.com/SnO2WMaN/music-box.git"
   },
   "bugs": {
-    "url": "https://github.com/SnO2WMaN/spotify-box/issues"
+    "url": "https://github.com/SnO2WMaN/music-box/issues"
   },
   "version": "1.0.0",
+  "dependencies": {
+    "@octokit/rest": "^16.30.1",
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0"
+  },
   "devDependencies": {
     "@conten2/eslint-config": "^1.0.0-5",
     "@conten2/prettier-config": "^1.0.0",
@@ -21,8 +26,9 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "pinned-box",
-    "spotify"
+    "last.fm",
+    "music",
+    "pinned-box"
   ],
   "scripts": {
     "manual": "node index.js"
