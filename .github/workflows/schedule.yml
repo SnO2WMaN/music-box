@@ -1,8 +1,8 @@
-name: Update gist with WakaTime stats
+name: Update gist with Music stats
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   update-gist:
