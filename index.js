@@ -30,7 +30,7 @@ function generateBarChart(percent, size) {
 
   const frac = size * 8 * percent
   const barsFull = Math.ceil(frac / 8)
-  const semi = Math.ceil(frac % 8)
+  const semi = Math.floor(frac % 8)
 
   const barsEmpty = size - barsFull
 
