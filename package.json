@@ -3,6 +3,7 @@
   "description": "pinned gist box for Last.fm",
   "author": "SnO2WMaN <sno2wman.official@gmail.com>",
   "homepage": "https://github.com/SnO2WMaN/music-box#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SnO2WMaN/music-box.git"
@@ -20,6 +21,7 @@
     "@conten2/eslint-config": "^1.0.0-5",
     "@conten2/prettier-config": "^1.0.0",
     "@sno2wman/prettier-package-json": "^2.0.2",
+    "all-contributors-cli": "^6.9.1",
     "eslint": "^6.4.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.4.0",
