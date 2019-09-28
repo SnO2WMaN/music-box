@@ -21,7 +21,7 @@
 
 ## Inspired ✨
 
-[jacc/mucix-box](https://github.com/jacc/music-box)
+[jacc/mucic-box](https://github.com/jacc/music-box)
 
 ## Usage 🖥
 
