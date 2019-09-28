@@ -55,7 +55,7 @@ async function updateGist(data) {
   const { artist } = data.topartists
   if (artist.length < 0) return
   const topPlayCount = Number(artist[0].playcount)
-  for (let i = 0; i < Math.min(artist.length, 5); i += 1) {
+  for (let i = 0; i < artist.length; i += 1) {
     const { name, playcount } = artist[i]
     lines.push(
       [
