@@ -28,7 +28,7 @@ function generateBarChart(percent, size) {
   const semifull = ['█', '▏', '▎', '▍', '▌', '▋', '▊', '▉']
   const empty = '░'
 
-  const frac = size * 8 * percent
+  const frac = Math.ceil(size * 8 * percent)
   const barsFull = Math.ceil(frac / 8)
   const semi = Math.floor(frac % 8)
 
