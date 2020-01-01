@@ -42,21 +42,12 @@ function generateBarChart(percent, size) {
 }
 
 async function updateGist(data) {
-  let gist
-  try {
-    gist = await octokit.gists.get({ gist_id: gistId })
-  } catch (error) {
-    // eslint-disable-next-line no-console
-    console.error(`Unable to get gist\n${error}`)
-  }
-
   const lines = []
 
-  const { artist } = data.topartists
-  if (artist.length < 0) return
-  const topPlayCount = Number(artist[0].playcount)
-  for (let i = 0; i < artist.length; i += 1) {
-    const { name, playcount } = artist[i]
+  const { artist: artists } = data.topartists
+  if (artists.length < 0) return
+  const topPlayCount = Number(artists[0].playcount)
+  artists.forEach(({ name, playcount }) => {
     lines.push(
       [
         generateBarChart(playcount / topPlayCount, 15),
@@ -68,22 +59,18 @@ async function updateGist(data) {
         name
       ].join(' ')
     )
-  }
-
+  })
   const today = new Date()
   const to = parseDate(today)
   today.setDate(today.getDate() - 7)
   const from = parseDate(today)
 
   try {
-    // Get original filename to update that same file
-    const filename = Object.keys(gist.data.files)[0]
     await octokit.gists.update({
       gist_id: gistId,
       description: `🎧 Listening (${from} ~ ${to})`,
       files: {
-        [filename]: {
-          filename: `🎧 Recent listening music`,
+        '🎧 Recent listening music': {
           content: lines.join('\n')
         }
       }
