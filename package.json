@@ -18,8 +18,8 @@
     "dotenv": "^8.1.0"
   },
   "devDependencies": {
-    "@conten2/eslint-config": "^2.0.0",
-    "@conten2/prettier-config": "^1.0.0",
+    "@sno2wman/eslint-config": "^1.0.3",
+    "@sno2wman/prettier-config": "^1.0.2",
     "@sno2wman/prettier-package-json": "^2.0.2",
     "all-contributors-cli": "^6.9.1",
     "eslint": "^6.4.0",

@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@conten2/eslint-config"]
+  "extends": ["@sno2wman/eslint-config"]
 }
