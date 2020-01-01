@@ -1,9 +1,9 @@
 {
   "name": "music-box",
   "description": "pinned gist box for Last.fm",
+  "license": "MIT",
   "author": "SnO2WMaN <sno2wman.official@gmail.com>",
   "homepage": "https://github.com/SnO2WMaN/music-box#readme",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SnO2WMaN/music-box.git"
@@ -33,6 +33,6 @@
     "pinned-box"
   ],
   "scripts": {
-    "manual": "node index.js"
+    "generate": "node index.js"
   }
 }
