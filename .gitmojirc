@@ -1,0 +1,374 @@
+{
+  "version": 2,
+  "gitmojis": [
+    {
+      "emoji": "✨",
+      "description": "Introduce new features.",
+      "name": "sparkles",
+      "tags": [
+        "feat"
+      ]
+    },
+    {
+      "emoji": "👍",
+      "description": "Improve features.",
+      "name": "thumbsup",
+      "tags": [
+        "improve",
+        "update"
+      ]
+    },
+    {
+      "emoji": "⚡️",
+      "description": "Update about performance.",
+      "name": "zap",
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "emoji": "🐛",
+      "description": "Fix bugs.",
+      "name": "bug",
+      "tags": [
+        "bug",
+        "fix"
+      ]
+    },
+    {
+      "emoji": "🚑",
+      "description": "Create a hotfix.",
+      "name": "ambulance",
+      "tags": [
+        "bug",
+        "fix",
+        "hotfix"
+      ]
+    },
+    {
+      "emoji": "♻️",
+      "description": "Refactor codes.",
+      "name": "recycle",
+      "tags": [
+        "refactor"
+      ]
+    },
+    {
+      "emoji": "🔧",
+      "description": "Update configurations.",
+      "name": "wrench",
+      "tags": [
+        "config",
+        "setting"
+      ],
+      "scopes": [
+        "eslint",
+        "stylelint",
+        "prettier",
+        "lint-staged",
+        "husky",
+        "gitmoji",
+        "typescript"
+      ]
+    },
+    {
+      "emoji": "🎨",
+      "description": "Update UI/UX.",
+      "name": "art",
+      "tags": [
+        "ui",
+        "ux"
+      ]
+    },
+    {
+      "emoji": "🔥",
+      "description": "Remove codes.",
+      "name": "fire",
+      "tags": [
+        "remove"
+      ]
+    },
+    {
+      "emoji": "🚨",
+      "description": "Add/Update tests.",
+      "name": "warning",
+      "tags": [
+        "test"
+      ]
+    },
+    {
+      "emoji": "🏗",
+      "description": "Update structures.",
+      "name": "building_construction",
+      "tags": [
+        "structure"
+      ]
+    },
+    {
+      "emoji": "🔒",
+      "description": "Update security.",
+      "name": "lock",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "emoji": "🚥",
+      "description": "Resolve Linter warning.",
+      "name": "traffic_light",
+      "tags": [
+        "lint"
+      ]
+    },
+    {
+      "emoji": "🚧",
+      "description": "Work in progress.",
+      "name": "construction",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "emoji": "⚓️",
+      "description": "Salvage old features.",
+      "name": "anchor",
+      "tags": [
+        "salvage"
+      ]
+    },
+    {
+      "emoji": "💥",
+      "description": "make a breaking change.",
+      "name": "boom",
+      "tags": [
+        "breaking"
+      ]
+    },
+    {
+      "emoji": "🧪",
+      "description": "Add experimental features.",
+      "name": "test_tube",
+      "tags": [
+        "beta",
+        "experimental"
+      ]
+    },
+    {
+      "emoji": "👷",
+      "description": "Maintain infrastructure.",
+      "name": "construction_worker",
+      "tags": [
+        "infra",
+        "ci"
+      ],
+      "scopes": [
+        "circle ci",
+        "renovate",
+        "github actions"
+      ]
+    },
+    {
+      "emoji": "🌐",
+      "description": "Translate.",
+      "name": "globe_with_meridians",
+      "tags": [
+        "translate",
+        "i18n",
+        "l10n"
+      ],
+      "scopes": [
+        {
+          "name": "ja",
+          "description": "Japanese"
+        },
+        {
+          "name": "en",
+          "description": "English"
+        }
+      ]
+    },
+    {
+      "emoji": "📖",
+      "description": "Write docs.",
+      "name": "open_book",
+      "tags": [
+        "docs",
+        "readme"
+      ]
+    },
+    {
+      "emoji": "💬",
+      "description": "Update literal or text.",
+      "name": "speech_balloon",
+      "tags": [
+        "text",
+        "literal"
+      ]
+    },
+    {
+      "emoji": "🚚",
+      "description": "Transfer files.",
+      "name": "truck",
+      "tags": [
+        "move"
+      ]
+    },
+    {
+      "emoji": "🍱",
+      "description": "Add assets.",
+      "name": "bento",
+      "tags": [
+        "assets",
+        "images"
+      ]
+    },
+    {
+      "emoji": "📷",
+      "description": "Update snapshots.",
+      "name": "camera",
+      "tags": [
+        "snapshots",
+        "test"
+      ]
+    },
+    {
+      "emoji": "🧹",
+      "description": "Format codes.",
+      "name": "bloom",
+      "tags": [
+        "format",
+        "prettier"
+      ]
+    },
+    {
+      "emoji": "⬆️",
+      "description": "Updgrade dependencies.",
+      "name": "arrow_up",
+      "tags": [
+        "dependencies",
+        "upgrade"
+      ]
+    },
+    {
+      "emoji": "⬇️",
+      "description": "Downgrade dependencies.",
+      "name": "arrow_down",
+      "tags": [
+        "dependencies",
+        "downgrade"
+      ]
+    },
+    {
+      "emoji": "➕",
+      "description": "Add dependencies.",
+      "name": "heavy_plus_sign",
+      "tags": [
+        "dependencies",
+        "add"
+      ]
+    },
+    {
+      "emoji": "➖",
+      "description": "Remove dependencies.",
+      "name": "heavy_minus_sign",
+      "tags": [
+        "dependencies",
+        "remove"
+      ]
+    },
+    {
+      "emoji": "📌",
+      "description": "Pin dependencies to specific versions.",
+      "name": "pushpin",
+      "tags": [
+        "dependencies",
+        "pin"
+      ]
+    },
+    {
+      "emoji": "🆗",
+      "description": "OK for the review.",
+      "name": "ok",
+      "tags": [
+        "review"
+      ]
+    },
+    {
+      "emoji": "⏪",
+      "description": "Revert changes.",
+      "name": "rewind",
+      "tags": [
+        "rewind"
+      ]
+    },
+    {
+      "emoji": "🔀",
+      "description": "Merge branches.",
+      "name": "twisted_rightwards_arrows",
+      "tags": [
+        "merge"
+      ]
+    },
+    {
+      "emoji": "📄",
+      "description": "Attach a license.",
+      "name": "page_facing_up",
+      "tags": [
+        "license"
+      ]
+    },
+    {
+      "emoji": "🔖",
+      "description": "Release.",
+      "name": "bookmark",
+      "tags": [
+        "version"
+      ]
+    },
+    {
+      "emoji": "🚀",
+      "description": "Deploy.",
+      "name": "rocket",
+      "tags": [
+        "deploy"
+      ]
+    },
+    {
+      "emoji": "🙈",
+      "description": "Ignore things.",
+      "name": "see_no_evil",
+      "tags": [
+        "ignore"
+      ]
+    },
+    {
+      "emoji": "👥",
+      "description": "Add a contributor.",
+      "name": "busts_in_silhouette",
+      "tags": [
+        "contributor"
+      ]
+    },
+    {
+      "emoji": "💵",
+      "description": "Add financial things.",
+      "name": "dollar",
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "emoji": "🔺",
+      "description": "Use as a commit separator.",
+      "name": "small_red_triangle"
+    },
+    {
+      "emoji": "🎉",
+      "description": "Init.",
+      "name": "tada",
+      "tags": [
+        "init"
+      ]
+    }
+  ]
+}
