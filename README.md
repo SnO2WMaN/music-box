@@ -33,7 +33,7 @@
 
 ### Setup 🛠
 
-1. Folk this repository
+1. Fork this repository
 2. Log into CircleCI with your GitHub (https://circleci.com/vcs-authorize/)
 3. Click on "Add Projects" on the sidebar
 4. Set up a project with the newly created fork
@@ -41,7 +41,7 @@
 6. Add the following environment variables:
 
 - **GIST_ID** The ID portion from your gist url `https://gist.github.com/<github username>/`**`57897a59c679fc8d5817a566f4b3b326`**.
-- **GH_TOKEN** The Github token generated above.
+- **GH_TOKEN** The GitHub token generated above.
 - **LAST_FM_API_KEY** The Last.fm API Key copied above.
 - **LAST_FM_USER** Your Last.fm username.
 
