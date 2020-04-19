@@ -142,9 +142,9 @@
     universal-user-agent "^4.0.0"
 
 "@octokit/types@^2.0.0", "@octokit/types@^2.0.1", "@octokit/types@^2.8.2":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-2.10.0.tgz#65ace1b0eb5bcbc80a287bb3ae50ee6e3d58448b"
-  integrity sha512-0/NN22MgQvNNgMjTwzWUzcIfFfks3faqiP1D1oQQz49KYeOWc+KkRG9ASbAPurrAnOaDiqnnuDYzhNT9cq4e8Q==
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-2.11.0.tgz#2b8c5056b782df413c26217c05e1def85753a5b6"
+  integrity sha512-529y4NAqpSql3S243M4m90w2ae2x1fBydvxBKCs2xHVSBIcC35YaCh34OmX2ZM6hWyu13pg3QwBtMGTkog185A==
   dependencies:
     "@types/node" ">= 8"
 
